@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ziguanhui</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertServlet</servlet-name>
+    <servlet-class>com.manager.InsertServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteServlet</servlet-name>
+    <servlet-class>com.manager.deleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginout</servlet-name>
+    <servlet-class>com.manager.loginout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manager</servlet-name>
+    <servlet-class>com.manager.manager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mnews</servlet-name>
+    <servlet-class>com.manager.mnews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SNadmin</servlet-name>
+    <servlet-class>com.manager.SNadmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateServlet</servlet-name>
+    <servlet-class>com.manager.updateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>utzgg</servlet-name>
+    <servlet-class>com.manager.utzgg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uxjxz</servlet-name>
+    <servlet-class>com.manager.uxjxz</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uwjxz</servlet-name>
+    <servlet-class>com.manager.uwjxz</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uhddt</servlet-name>
+    <servlet-class>com.manager.uhddt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <servlet-class>com.manager.UploadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getimage</servlet-name>
+    <servlet-class>com.manager.getimage</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>InsertServlet</servlet-name>
+    <url-pattern>/InsertServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteServlet</servlet-name>
+    <url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginout</servlet-name>
+    <url-pattern>/loginout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manager</servlet-name>
+    <url-pattern>/manager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mnews</servlet-name>
+    <url-pattern>/mnews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SNadmin</servlet-name>
+    <url-pattern>/SNadmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateServlet</servlet-name>
+    <url-pattern>/updateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>utzgg</servlet-name>
+    <url-pattern>/utzgg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uxjxz</servlet-name>
+    <url-pattern>/uxjxz</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uwjxz</servlet-name>
+    <url-pattern>/uwjxz</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uhddt</servlet-name>
+    <url-pattern>/uhddt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <url-pattern>/UploadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getimage</servlet-name>
+    <url-pattern>/getimage</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+   
+    <welcome-file>main.jsp</welcome-file>
+   
+  </welcome-file-list>
+</web-app>
